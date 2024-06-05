@@ -10,7 +10,7 @@
                 <a class="nav-link <?php echo $active = ($page == 'home') ? 'active' : "" ?>" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php echo $active = ($page == 'tax-topics' || $page == 'articles') ? 'active' : "" ?>" href="tax-topics.php">Services</a>
+                <a class="nav-link <?php echo $active = ($page == 'tax-topics' || $page == 'articles') ? 'active' : "" ?>" href="tax-topics.php">Tax Topics</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link <?php echo $active = ($page == 'contact') ? 'active' : "" ?>" href="contact.php">Contact</a>

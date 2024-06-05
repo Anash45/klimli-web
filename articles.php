@@ -44,6 +44,8 @@ if (isset($_POST['groups'])) {
             'articles' => $groupArticles
         ];
     }
+}else{
+    header('location:tax-topics.php');
 }
 
 // Output the results
@@ -88,7 +90,7 @@ if (isset($_POST['groups'])) {
                                         $rating .= '&dollar;';
                                     }
                                     ?>
-                                    <a href="article-details.php?id=<?php echo $article['id']; ?>" class="article">
+                                    <a href="article-details.php?articleID=<?php echo $article['id']; ?>" class="article">
                                         <span class="rating"><?php echo $rating; ?></span>
                                         <h3 class="article-title"><?php echo $article['name']; ?></h3>
                                     </a>
