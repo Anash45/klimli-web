@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $communication_speed = strtoupper(trim($_POST['communication_speed']));
     $services = isset($_POST['services']) ? array_map('strtoupper', $_POST['services']) : [];
 
-    if($_POST['email'] !== ''){
+    if($_POST['contactMethod'] == 'email'){
         $contactMethod = "<tr><th>Email</th><td>{$email}</td></tr>";
     }else{
         $contactMethod = "<tr><th>Telephone</th><td>{$telephone}</td></tr>";

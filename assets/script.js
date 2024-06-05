@@ -163,6 +163,7 @@ $(document).ready(function () {
                                 if (response.status === 'success') {
                                     $('#response-message').html('<p class="alert alert-success">' + response.message + '</p>');
                                     $('#contact-form').trigger('reset');
+                                    $('#contact-form').removeClass('was-validated');
                                 } else {
                                     $('#response-message').html('<p class="alert alert-danger">' + response.message + '</p>');
                                 }
