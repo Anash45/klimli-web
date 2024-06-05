@@ -25,7 +25,7 @@ $page = 'home';
               <div class="text-container">
                 <p class="adjust-main-paragraph">Get Professional Tax Services</p>
                 <h1>TAX PROFESSIONALS<br> READY TO ASSIST</h1>
-                <a href="contact.php" class="btn btn-light adjust-getintch-btn">Get in touch</a>
+                <a href="https://calendly.com/marc-b4w/tax-filing" target="_blank" class="btn btn-light adjust-getintch-btn">Get in touch</a>
               </div>
             </div>
           </div>
@@ -42,38 +42,33 @@ $page = 'home';
             <div class="text-lg-start text-center">
               <p class="change-p-color home-subtitle">EMPOWERING YOUR BUSINESS WITH EXPERTISE AND EFFICIENCY</p>
               <h2 class="fw-bold home-title">Welcome to KLIMLI</h2>
-              <p class="home-desc">Welcome to Klimli! We are a non-profit tax service based in Jersey City, NJ. We serve the needs of
-                axpayers around the world and look forward to helping you!<br> <br> Enrolled agent status is the highest
-                credential the IRS awards. Individuals who obtain this elite status must adhere to ethical standards.
-              </p>
+              <p class="home-desc">Welcome to Klimli! We are a non-profit tax service based in Jersey City, NJ. We serve
+                the needs of axpayers around the world and look forward to helping you!<br> <br> Enrolled agent status
+                is the highest credential the IRS awards. Individuals who obtain this elite status must adhere to
+                ethical standards. </p>
             </div>
           </div>
         </div>
         <div class="row mt-5 mb-5 pt-5">
-          <div class="col-lg-3 col-md-4 col-sm-6 py-2">
-            <div>
-              <h3>Accounting & Bookkeeping Services</h3>
-              <p>Expert accounting & bookkeeping solutions for streamlined financial management</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 py-2">
-            <div>
-              <h3>Accounting & Bookkeeping Services</h3>
-              <p>Expert accounting & bookkeeping solutions for streamlined financial management</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 py-2">
-            <div>
-              <h3> Payroll Services</h3>
-              <p>Automate your payroll for less. Smooth transition.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 py-2">
-            <div>
-              <h3> Tax Strategies that win!</h3>
-              <p>Klimli works with you and suggests near-term tactical, and planning-based strategies for you.</p>
-            </div>
-          </div>
+          <?php
+          // Read the JSON file
+          $servicesData = file_get_contents('./assets/Services.json');
+          $services = json_decode($servicesData, true);
+
+          // Output the services in the specified format
+          foreach ($services as $service) {
+            echo '<div class="col-lg-3 col-md-4 col-sm-6 py-2">';
+            echo '<div>';
+            echo '<h3>' . htmlspecialchars($service['title']) . '</h3>';
+            echo '<p>' . htmlspecialchars($service['description']) . '</p>';
+            echo '</div>';
+            echo '</div>';
+          }
+          ?>
+        </div>
+
+        <div class="my-4 text-center">
+          <a href="https://calendly.com/marc-b4w/tax-filing" target="_blank" class="btn rounded-full free-btn">Free Consultation</a>
         </div>
       </div>
     </main>

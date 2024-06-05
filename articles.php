@@ -80,8 +80,8 @@ if (isset($_POST['groups'])) {
                 <div class="groups">
                     <?php foreach ($results as $result): ?>
                         <div class="group">
-                            <h2 class="group-title"><?php echo ucfirst($result['group']); ?>,
-                                <?php echo $result['count']; ?></h2>
+                            <h2 class="group-title"><?php echo ucfirst($result['group']); ?>
+                                (<?php echo $result['count']; ?>)</h2>
                             <div class="articles">
                                 <?php
                                 foreach ($result['articles'] as $article):
@@ -91,6 +91,7 @@ if (isset($_POST['groups'])) {
                                     }
                                     ?>
                                     <a href="article-details.php?articleID=<?php echo $article['id']; ?>" class="article">
+                                    <img src="./assets/img/<?php echo $article['group']; ?>.png" alt="Group" class="group-icon">
                                         <span class="rating"><?php echo $rating; ?></span>
                                         <h3 class="article-title"><?php echo $article['name']; ?></h3>
                                     </a>

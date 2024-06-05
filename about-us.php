@@ -20,10 +20,10 @@ $page = 'about-us';
         <div class="container">
             <div class="row">
                 <div class="col-12 about-us-heading-bg">
-                    <h1>About Klimli</h1>
+                    <h1 class="font-weight-bold">About Klimli</h1>
                 </div>
                 <div class="about-all-headings col-12">
-                    <h3>Our Mission</h3>
+                    <h3 class="font-weight-bold">Our Mission</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg1">
@@ -33,8 +33,8 @@ $page = 'about-us';
                         </div>
                     </div>
                 </div>
-                <div class="about-all-headings col-12">
-                    <h3>Team</h3>
+                <div class="about-all-headings col-12" id="team">
+                    <h3 class="font-weight-bold">Team</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg2">
@@ -45,8 +45,8 @@ $page = 'about-us';
                         </div>
                     </div>
                 </div>
-                <div class="about-all-headings col-12">
-                    <h3>Privacy</h3>
+                <div class="about-all-headings col-12" id="privacy">
+                    <h3 class="font-weight-bold">Privacy</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg3">
@@ -59,11 +59,11 @@ $page = 'about-us';
                         </div>
                     </div>
                 </div>
-                <div class="about-heading col-12">
-                    <h1>Term of Usage</h1>
+                <div class="about-heading col-12" id="terms">
+                    <h1 class="font-weight-bold">Terms of Usage</h1>
                 </div>
                 <div class="about-all-headings col-12">
-                    <h3>Conditions of Use</h3>
+                    <h3 class="font-weight-bold">Conditions of Use</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg4">
@@ -77,7 +77,7 @@ $page = 'about-us';
                     </div>
                 </div>
                 <div class="about-all-headings col-12">
-                    <h3>Intellectual property</h3>
+                    <h3 class="font-weight-bold">Intellectual property</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg5">
@@ -92,7 +92,7 @@ $page = 'about-us';
                     </div>
                 </div>
                 <div class="about-all-headings col-12">
-                    <h3>Applicable Law</h3>
+                    <h3 class="font-weight-bold">Applicable Law</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg6">
@@ -105,7 +105,7 @@ $page = 'about-us';
                     </div>
                 </div>
                 <div class="about-all-headings col-12">
-                    <h3>Indemnification</h3>
+                    <h3 class="font-weight-bold">Indemnification</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg7">
@@ -117,7 +117,7 @@ $page = 'about-us';
                     </div>
                 </div>
                 <div class="about-all-headings col-12">
-                    <h3>Limit of Legal Liability</h3>
+                    <h3 class="font-weight-bold">Limit of Legal Liability</h3>
                 </div>
                 <div class="col-12">
                     <div class="image-container add-bg8">

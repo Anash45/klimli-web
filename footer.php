@@ -34,9 +34,9 @@
                         <div class="col-sm-2 col-md-6 col-lg-4">
                             <ul>
                                 <li class="footer-bold">About</li>
-                                <li><a href="about-us.php">Team</a></li>
-                                <li><a href="about-us.php">Privacy</a></li>
-                                <li><a href="about-us.php">Terms</a></li>
+                                <li><a href="about-us.php#team">Team</a></li>
+                                <li><a href="about-us.php#privacy">Privacy</a></li>
+                                <li><a href="about-us.php#terms">Terms</a></li>
                             </ul>
                         </div>
                     </div>

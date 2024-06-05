@@ -21,7 +21,7 @@ $page = 'contact';
       <h1>Let's Work Together</h1>
       <p>Kimli makes customers happy</p>
     </div>
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <div class="col-md-6">
           <form class="needs-validation" method="POST" id="contact-form" novalidate>

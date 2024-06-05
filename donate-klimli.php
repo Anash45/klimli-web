@@ -62,7 +62,7 @@ $page = 'donate';
                         </stripe-buy-button>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 bg-light p-3 donation-input-3">
                     <form class="donation-input-2 p-3" action="https://www.paypal.com/donate" method="post"
                         target="_top">
                         <input type="hidden" name="hosted_button_id" value="EXQMKP5ZRM274" />

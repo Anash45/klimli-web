@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $subject = "Klimli - Contact Form";
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "From: Klimli - {$first_name} {$last_name} <webmaster@klimli.com>" . "\r\n";
+    $headers .= "From: Klimli - {$first_name} {$last_name} <webmaster@f4futuretech.com>" . "\r\n";
 
     // Send the email
     if (mail($to, $subject, $emailContent, $headers)) {

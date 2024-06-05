@@ -10,9 +10,10 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.navbar{
+.navbar {
     padding-top: 0;
 }
+
 /* strat header */
 .navbar-collapse {
     background-color: #1B3087 !important;
@@ -207,7 +208,6 @@ a {
 
 .donation-input {
     background-color: white;
-    padding: 20px;
     border-radius: 5px;
     text-align: center;
 
@@ -409,8 +409,18 @@ a {
     flex-direction: column;
     padding: 20px;
     border-radius: 20px;
-    background-color: #0079C1;
+    background-color: #ade1ff;
     height: 200px;
+    background-position: right top;
+    position: relative;
+}
+
+.group-icon {
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 0.6;
 }
 
 .group-title {
@@ -422,7 +432,7 @@ a {
 
 .rating {
     font-size: 30px;
-    color: greenyellow;
+    color: green;
     font-weight: 700;
 }
 
@@ -430,6 +440,8 @@ a {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    color: #1B3087;
+    font-weight: 700;
 }
 
 .home-subtitle {
@@ -450,7 +462,23 @@ a {
 .phone-pref {
     display: none;
 }
-.gap-2{
+
+.gap-2 {
     gap: 5px;
 }
+
 /* About us end */
+
+.free-btn{
+    background-color: #1B3087;
+    color: #FFF;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 2px solid #1B3087;
+    border-radius: 100px;
+}
+
+.free-btn:hover{
+    background-color: #FFF !important;
+    color: #1B3087 !important;
+}
