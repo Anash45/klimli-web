@@ -67,7 +67,7 @@ $page = 'home';
           ?>
         </div>
 
-        <div class="my-4 text-center">
+        <div class="mt-3 mb-5 text-center">
           <a href="https://calendly.com/marc-b4w/tax-filing" target="_blank" class="btn rounded-full free-btn">Free Consultation</a>
         </div>
       </div>
