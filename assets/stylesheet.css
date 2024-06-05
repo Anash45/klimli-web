@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* strat header */
+.navbar-collapse {
+    background-color: #1B3087 !important;
+
+}
+
+.nav-link {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    line-height: 100%;
+    padding: 8px 10px !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    border-color: #FFF;
+    background-color: #FFF;
+    color: #1B3087 !important;
+}
+
+.navbar-collapse ul li {
+    padding: 6px 15px;
+}
+
+.navbar-collapse ul {
+    margin-right: 20px;
+}
+
+a {
+    color: white !important;
+}
+
+/* end header */
+
+
+/* start footer */
+.footer {
+    background-color: #1B3087 !important;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.adjust-footer {
+    margin-left: 0;
+}
+
+.logo-text {
+    color: white;
+    font-size: 14px;
+}
+
+.logo-text .icon-link {
+    margin-top: -8px;
+}
+
+.adjust-footer ul li {
+    list-style: none;
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+
+}
+
+.adjust-footer ul li a:hover {
+    text-decoration: none;
+}
+
+.footer-bold {
+    font-weight: bold;
+}
+
+/* end footer */
+
+
+/* Home page strat*/
+.background-image {
+    height: 300px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.651), rgba(255, 255, 255, 0.651)), url(img/main-background1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px !important;
+    margin: 10px 20px;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #1B3087;
+
+}
+
+.adjust-main-paragraph {
+    font-size: 12px;
+    margin-bottom: -2px;
+}
+
+.adjust-getintch-btn {
+    padding: 4px 10px;
+    color: #1B3087 !important;
+    font-size: 14px;
+    border: 2px solid #1B3087;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.add-border {
+    border: 1px solid grey;
+}
+
+.change-p-color {
+    color: #1B3087;
+    font-size: 12px;
+}
+
+/* Home page end */
+
+
+/* contact page start */
+.contact-heading {
+    text-align: center;
+    margin: 30px;
+}
+
+.contact-heading p {
+    font-size: 20px;
+
+}
+
+.set-font-size {
+    font-size: 18px;
+}
+
+.sub-button-set {
+    background-color: #1B3087 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* contact page end */
+
+/* Donate-klimli start*/
+.main-div {
+    background-image: url('img/donate-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.payment-container {
+    padding: 6px;
+    text-align: center;
+}
+
+.payment-container .btn {
+    margin: 5px;
+}
+
+.color-change-1 {
+    background-color: #D9D9D9;
+}
+
+.font-italic {
+    font-weight: bold;
+}
+
+.span1 {
+    color: #00457C;
+}
+
+.span2 {
+    color: #0079C1;
+}
+
+
+
+
+.donation-input {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.donation-input-3 {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+
+.donation-input img {
+    max-width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.donation-icons img {
+    width: 40px;
+    margin: 5px;
+}
+
+.input-group-text {
+    background-color: #d9d9d900;
+}
+
+.donation-input-2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.adjust-to-center {
+
+    align-items: center;
+}
+
+
+.modal-header {
+    border: none !important;
+}
+
+.modal-content {
+    border-radius: 20px;
+}
+
+/* Donate-klimli end */
+
+
+
+/* Tax topics start */
+.add-bg-new {
+    background-image: url('img/tax-topic-back.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+
+}
+
+.h-100 {
+    border-radius: 20px;
+    border: 1px solid #1B3087;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+
+}
+
+.card-horizontal img {
+    height: 60px;
+}
+
+.card-horizontal .card-body {
+    flex: 1;
+}
+
+.add-padding {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgba(26, 86, 219, 0.05);
+    border-radius: 16px;
+}
+
+.set-icon i {
+    background-color: #1B3087;
+    padding: 10px;
+    color: white;
+    border-radius: 24px;
+
+}
+
+/* Tax topics end */
+
+/* About Us Start*/
+.about-us-bg-image {
+    background-image: url(img/about-us-main-bg.png);
+}
+
+.image-container {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.overlay-add {
+    width: 80%;
+    background-color: #1b3187d8;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 20px;
+
+}
+
+.add-bg1 {
+    background-image: url(img/about-us-1.png);
+}
+
+.add-bg2 {
+    background-image: url(img/about-us-2.png);
+}
+
+.add-bg3 {
+    background-image: url(img/about-us-3.png);
+}
+
+.add-bg4 {
+    background-image: url(img/about-us-4.png);
+}
+
+.add-bg5 {
+    background-image: url(img/about-us-5.png);
+}
+
+.add-bg6 {
+    background-image: url(img/about-us-6.png);
+}
+
+.add-bg7 {
+    background-image: url(img/about-us-7.png);
+}
+
+.add-bg8 {
+    background-image: url(img/about-us-8.png);
+}
+
+.about-heading {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.about-all-headings {
+    text-align: center;
+    margin: 14px 0;
+}
+
+.about-us-heading-bg {
+    background-color: #1B3087;
+    color: white;
+    border-radius: 2px 2px 25px 25px;
+    margin: 15px 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.group {
+    cursor: pointer;
+}
+
+.group.selected {
+    background-color: #d1eaff;
+}
+
+.inp-error {
+    border-color: red;
+    background-color: #ffe0e0;
+}
+
+.overlay-add h5,
+.overlay-add p {
+    padding: 10px;
+}
+
+/* Articles */
+.article {
+    margin: 0 20px;
+    text-decoration: none !important;
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #0079C1;
+    height: 200px;
+}
+
+.group-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B3087;
+    margin: 20px 10px;
+}
+
+.rating {
+    font-size: 30px;
+    color: greenyellow;
+    font-weight: 700;
+}
+
+.article-title {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.home-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.home-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.home-desc {
+    font-size: 24px;
+}
+
+.email-pref,
+.phone-pref {
+    display: none;
+}
+.gap-2{
+    gap: 5px;
+}
+/* About us end */
