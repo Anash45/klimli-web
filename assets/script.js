@@ -162,7 +162,7 @@ $(document).ready(function () {
                                 console.log(response);
                                 if (response.status === 'success') {
                                     $('#response-message').html('<p class="alert alert-success">' + response.message + '</p>');
-                                    // $('#contact-form').trigger('reset');
+                                    $('#contact-form').trigger('reset');
                                 } else {
                                     $('#response-message').html('<p class="alert alert-danger">' + response.message + '</p>');
                                 }
