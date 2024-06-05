@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </table>";
 
     // Set the recipient email address
-    $to = "futuretest45@gmail.com";
+    $to = "futuretest45@gmail.com,marc@klimli.com,f4futuretech@gmail.com";
     $subject = "Klimli - Contact Form";
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
