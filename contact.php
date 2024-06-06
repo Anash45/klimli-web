@@ -35,7 +35,7 @@ $page = 'contact';
                 <input type="text" class="form-control" required name="last_name" id="lname" placeholder="Smitherton">
               </div>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-4">
               <label class="set-font-size">Communication Preference</label>
               <div>
                 <div class="d-flex gap-2"><input type="radio" class="form-check-input" name="contactMethod" checked
@@ -46,16 +46,16 @@ $page = 'contact';
                     value="text"><label class="mb-0 form-check-label"> Text me</label></div>
               </div>
             </div>
-            <div class="form-group email-pref">
+            <div class="form-group email-pref mt-4">
               <label for="email" class="set-font-size">Email Address</label>
               <input type="email" class="form-control" required name="email" id="email"
                 placeholder="email@janesfakedomain.net">
             </div>
-            <div class="form-group phone-pref">
+            <div class="form-group phone-pref mt-4">
               <label for="telephone" class="set-font-size">Telephone #</label>
               <input type="tel" class="form-control" name="telephone" id="telephone" placeholder="+1 ###-####">
             </div>
-            <div class="form-group">
+            <div class="form-group mt-4">
               <label class="set-font-size">Communication Speed</label>
               <div>
                 <div class="d-flex gap-2"><input type="radio" class="form-check-input" required
@@ -67,33 +67,33 @@ $page = 'contact';
                   cool"><label class="mb-0 form-check-label"> This month is cool</label></div>
               </div>
             </div>
-            <div class="form-group mt-5">
+            <div class="form-group mt-4">
               <fieldset>
                 <label class="set-font-size">What can we help you with?</label>
                 <div class="row">
-                  <div class="col">
+                  <div class="col px-1">
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]"
-                        value="Tax filing"><label class="mb-0 form-check-label"> Tax Filing</label></div>
+                        value="Tax filing"><label class="mb-0 form-check-label nowrap"> Tax Filing</label></div>
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]"
-                        value="tax strategy"><label class="mb-0 form-check-label"> Tax Strategy</label></div>
+                        value="tax strategy"><label class="mb-0 form-check-label nowrap"> Tax Strategy</label></div>
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]"
-                        value="Irs/State defense"><label class="mb-0 form-check-label"> IRS/State Defence</label></div>
+                        value="Irs/State defense"><label class="mb-0 form-check-label nowrap"> IRS/State Defence</label></div>
                   </div>
-                  <div class="col">
+                  <div class="col px-1">
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]"
-                        value="bookkeeping"><label class="mb-0 form-check-label"> Bookkeeping Services</label></div>
+                        value="bookkeeping"><label class="mb-0 form-check-label nowrap"> Bookkeeping Services</label></div>
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]" value="1099/W-2
-                      Services"><label class="mb-0 form-check-label"> 1099/W-2 Services</label></div>
+                      Services"><label class="mb-0 form-check-label nowrap"> 1099/W-2 Services</label></div>
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]" value="Payroll
-                      Services"><label class="mb-0 form-check-label"> Payroll Services</label></div>
+                      Services"><label class="mb-0 form-check-label nowrap"> Payroll Services</label></div>
                   </div>
-                  <div class="col">
+                  <div class="col px-1">
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]"
-                        value="business setup"><label class="mb-0 form-check-label"> Business Setup</label></div>
+                        value="business setup"><label class="mb-0 form-check-label nowrap"> Business Setup</label></div>
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]"
-                        value="donations"><label class="mb-0 form-check-label"> Donations</label></div>
+                        value="donations"><label class="mb-0 form-check-label nowrap"> Donations</label></div>
                     <div class="d-flex gap-2"><input type="checkbox" class="form-check" name="services[]"
-                        value="volunteering"><label class="mb-0 form-check-label"> Volunteering</label></div>
+                        value="volunteering"><label class="mb-0 form-check-label nowrap"> Volunteering</label></div>
                   </div>
                   <div id="services-error"></div>
                 </div>

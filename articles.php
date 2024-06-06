@@ -44,7 +44,7 @@ if (isset($_POST['groups'])) {
             'articles' => $groupArticles
         ];
     }
-}else{
+} else {
     header('location:tax-topics.php');
 }
 
@@ -91,9 +91,11 @@ if (isset($_POST['groups'])) {
                                     }
                                     ?>
                                     <a href="article-details.php?articleID=<?php echo $article['id']; ?>" class="article">
-                                    <img src="./assets/img/<?php echo $article['group']; ?>.png" alt="Group" class="group-icon">
                                         <span class="rating"><?php echo $rating; ?></span>
+                                        <img src="./assets/img/<?php echo $article['group']; ?>.png" alt="Group"
+                                            class="group-icon">
                                         <h3 class="article-title"><?php echo $article['name']; ?></h3>
+                                        <!-- <h5 class="article-category"><?php echo $article['category']; ?></h5> -->
                                     </a>
                                 <?php endforeach; ?>
                             </div>
