@@ -412,10 +412,11 @@ a {
     flex-direction: column;
     padding: 20px;
     border-radius: 20px;
-    background-color: #ade1ff;
+    background-color: #fff;
     height: unset;
     background-position: right top;
     position: relative;
+    border: 1px solid #1B3087;
 }
 
 .group-icon {

@@ -62,7 +62,7 @@ if (isset($_GET['articleID'])) {
         <link rel="stylesheet" type="text/css"
             href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/stylesheet.css">
+        <link rel="stylesheet" href="assets/stylesheet.css?v=1">
     </head>
 
     <body>
